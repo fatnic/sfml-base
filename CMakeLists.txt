@@ -6,8 +6,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(include)
 
-set(SOURCES main.cpp)
-#file(GLOB SOURCES "src/*.cpp")
+#set(SOURCES main.cpp)
+file(GLOB SOURCES "src/*.cpp")
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
